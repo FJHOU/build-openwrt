@@ -8,7 +8,7 @@
 root_password="root"
 
 # Configure LAN
-lan_ip_address="192.168.31.1"
+lan_ip_address="192.168.0.1"
 
 if [ -n "$root_password" ]; then
   (
