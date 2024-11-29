@@ -14,10 +14,8 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@main
-      
-    - name: Free Disk Space After Build
+    
+      - name: Free Disk Space After Build
       run: |
         echo "Disk space before post-build cleanup:"
         df -h
@@ -30,7 +28,10 @@ jobs:
         sudo apt-get clean
         echo "Disk space after post-build cleanup:"
         df -h
-
+        
+    - name: Checkout
+      uses: actions/checkout@main
+      
     - name: Initialization environment
       run: |
         sudo apt update
