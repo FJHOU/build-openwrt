@@ -1,4 +1,4 @@
 #This includes only the changes compared to the default configuration:
 CONFIG_PACKAGE_luci=y
-CONFIG_PACKAGE_luci-app-passwall2=y
+CONFIG_PACKAGE_luci-i18n-adguardhome=y
 CONFIG_PACKAGE_luci-app-openclash=y
