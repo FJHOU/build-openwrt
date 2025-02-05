@@ -30,8 +30,4 @@ if [ -n "$pppoe_username" -a "$pppoe_password" ]; then
   uci commit network
 fi
 
-uci set wireless.radio0.country='US'
-uci set wireless.radio0.disabled='0'
-uci commit wireless
-
 echo "All done!"
