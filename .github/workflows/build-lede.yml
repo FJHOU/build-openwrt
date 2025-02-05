@@ -32,10 +32,6 @@ jobs:
         echo "硬盘详情："
         df -Th
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@main
-
     - name: Initialization environment
       run: |
         sudo apt update
