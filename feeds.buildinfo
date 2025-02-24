@@ -1,2 +1,2 @@
 #This includes only the changes compared to the default configuration:
-#src-git OpenClash https://github.com/vernesong/OpenClash.git
+src-git OpenClash https://github.com/vernesong/OpenClash.git
