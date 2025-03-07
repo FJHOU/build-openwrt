@@ -1,5 +1,6 @@
 #This includes only the changes compared to the default configuration:
 CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-i18n-vlmcsd=y
 CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_adguardhome=y
 CONFIG_PACKAGE_luci-i18n-adguardhome=y
